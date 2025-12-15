@@ -1,5 +1,5 @@
-# RTSP Camera Scanner (Advanced)
-📡 RTSP Camera Scanner – Advanced Network & Camera Discovery Tool
+# RTSP Camera Scanner
+📡 RTSP Camera Scanner – Network & Camera Discovery Tool
 An advanced Python-based RTSP camera scanner designed for network discovery, security assessment, and research.
 The project focuses on clean modular architecture, separating network scanning from RTSP intelligence, making it ideal for pentesting labs, blue-team analysis, and learning protocol-level enumeration.
 
