@@ -12,9 +12,20 @@ The project focuses on clean modular architecture, separating network scanning f
 #### •📤 JSON export of results
 #### •🧱 Clean, extensible modular design
 
+### 🧠 Architecture Philosophy
+• scanner/ handles hosts, ports, threading
+• rtsp/ handles RTSP protocol logic only
+• utils/ provides shared infrastructure
+• main.py orchestrates everything
+
+### ⚠️ Legal Notice
+
+This tool is intended ONLY for:
+Networks you own
+Environments you have explicit permission to test
+Unauthorized scanning of networks or devices is illegal.
+
 ### 🚀 Usage
 ```bash
 pip install -r requirements.txt
 python3 main.py 192.168.1.0/24 --json results/scan.json
-
-### 🧠 Architecture Philosophy
