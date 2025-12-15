@@ -1,17 +1,13 @@
-# RTSP-Scanner
-Fast multithreaded RTSP scanner for pentesting and network auditing.
+RTSP Camera Scanner (Advanced)
+📡 RTSP Camera Scanner – Advanced Network & Camera Discovery Tool
+An advanced Python-based RTSP camera scanner designed for network discovery, security assessment, and research.
+The project focuses on clean modular architecture, separating network scanning from RTSP intelligence, making it ideal for pentesting labs, blue-team analysis, and learning protocol-level enumeration.
 
-## 🚀 Features
-- Multithreaded scanning
-- CLI arguments: `--network`, `--timeout`, `--verbose`, `--json`
-- Colorized output (`colorama`)
-- Auto-save results (text & JSON)
-- Clean modular structure
-- MIT License
-
-## 📦 Installation
-```bash
-git clone https://github.com/USERNAME/rtsp-scanner
-cd rtsp-scanner
-
-pip install -r requirements.txt
+✨ Features
+🔍 TCP & UDP port scanning
+🎥 RTSP service detection (OPTIONS / DESCRIBE)
+🛣️ Known RTSP path probing
+🏷️ Camera vendor fingerprinting (Hikvision, Dahua, etc.)
+⚡ Multi-threaded scanning engine
+📤 JSON export of results
+🧱 Clean, extensible modular design
