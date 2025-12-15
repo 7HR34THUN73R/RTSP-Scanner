@@ -25,6 +25,7 @@ This design avoids monolithic scripts and enables easy future extensions such as
 This tool is intended ONLY for:
 - Networks you own
 - Environments you have explicit permission to test
+
 Unauthorized scanning of networks or devices is illegal.
 
 ### 🚀 Usage
