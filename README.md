@@ -17,6 +17,7 @@ The project focuses on clean modular architecture, separating network scanning f
 - rtsp/ handles RTSP protocol logic only
 - utils/ provides shared infrastructure
 - main.py orchestrates everything
+
 This design avoids monolithic scripts and enables easy future extensions such as ONVIF discovery, authentication checks, snapshots, or plugins.
 
 ### ⚠️ Legal Notice
