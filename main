@@ -1,0 +1,36 @@
+import argparse
+from scanner.engine import run_scan
+from utils.banner import show_banner
+from utils.exporter import save_json
+
+
+
+
+def main():
+show_banner()
+
+
+parser = argparse.ArgumentParser(description="Advanced RTSP Camera Scanner")
+parser.add_argument("target", help="IP or subnet (e.g. 192.168.1.0/24)")
+parser.add_argument("--json", help="Save results to JSON")
+args = parser.parse_args()
+
+
+results = run_scan(args.target)
+
+
+for r in results["results"]:
+if r["rtsp"]:
+print(f"[RTSP] {r['host']} | {r['vendor']} | {r['paths']}")
+else:
+print(f"[HOST] {r['host']} | TCP {r['tcp']}")
+
+
+if args.json:
+save_json(results, args.json)
+
+
+
+
+if __name__ == "__main__":
+main()
