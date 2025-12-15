@@ -13,10 +13,10 @@ The project focuses on clean modular architecture, separating network scanning f
 #### •🧱 Clean, extensible modular design
 
 ### 🧠 Architecture Philosophy
-• scanner/ handles hosts, ports, threading
-• rtsp/ handles RTSP protocol logic only
-• utils/ provides shared infrastructure
-• main.py orchestrates everything
+- scanner/ handles hosts, ports, threading
+- rtsp/ handles RTSP protocol logic only
+- utils/ provides shared infrastructure
+- main.py orchestrates everything
 
 ### ⚠️ Legal Notice
 
