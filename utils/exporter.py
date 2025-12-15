@@ -1,12 +1,8 @@
 import json
 
 
-def save_text(found):
-    with open("results.txt", "w") as f:
-        for ip in found:
-            f.write(ip + "\n")
 
 
-def save_json(found):
-    with open("export.json", "w") as f:
-        json.dump(found, f, indent=2)
+def save_json(data: dict, filename: str):
+with open(filename, "w", encoding="utf-8") as f:
+json.dump(data, f, indent=4)
