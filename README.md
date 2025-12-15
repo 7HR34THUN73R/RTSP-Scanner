@@ -11,3 +11,8 @@ The project focuses on clean modular architecture, separating network scanning f
 ⚡ Multi-threaded scanning engine
 📤 JSON export of results
 🧱 Clean, extensible modular design
+
+🚀 Usage
+
+pip install -r requirements.txt
+python3 main.py 192.168.1.0/24 --json results/scan.json
